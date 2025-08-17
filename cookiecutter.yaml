@@ -1,0 +1,39 @@
+#######################  Project Description  ########################
+display_name: null
+project_slug: "{{ cookiecutter.display_name | lower | replace(' ', '-')}}"
+__project_slug: "{{ cookiecutter.project_slug }}"
+short_desc: null
+######################################################################
+
+
+####################  Licensing & attribution  #######################
+author_name: null
+author_email: null
+copyright_year: "{% now 'local', '%Y' %}"
+license: # TODO: Add LiLiQ support
+  - "MIT"
+  - "reserved"
+  - "unspecified"
+######################################################################
+
+
+############################# Prompts ################################
+__prompts__:
+  display_name:     "project display name"
+  project_slug:     "project path"
+  short_desc:       "short project description"
+
+  author_name:      "author name (or username)"
+  author_email:     "author email"
+  license:
+    __prompt__: "copyright notice"
+    MIT: "MIT license (permissive)"
+    reserved: "all rights reserved (most restrictive)"
+    unspecified: "unspecified (ambiguous - fill it in yourself)"
+######################################################################
+
+
+########################  Jinja Environment  #########################
+_jinja2_env_vars:
+  line_statement_prefix: "#:"
+######################################################################
