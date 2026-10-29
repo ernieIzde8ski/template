@@ -7,9 +7,9 @@ A cookiecutter template for generic projects.
 - any POSIX-compliant shell
 - `python3` (with `PyYAML`)
 - `cookiecutter`
-- `git`
 - `fd`
-- `pre-commit` (will auto-install if pipx is available)
+- `git`
+- `prek` (will auto-install if `pipx` is available)
 
 Example setup for Void Linux:
 
