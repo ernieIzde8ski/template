@@ -9,8 +9,5 @@ charset = utf-8
 end_of_line = lf
 max_line_length = 90
 
-[Makefile]
-indent_style = tab
-
 [*.{md,json,yml,yaml}]
 indent_size = 2
