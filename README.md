@@ -21,8 +21,7 @@ pipx install cookiecutter
 ## Usage
 
 ```sh
-cookiecutter gh:ernieIzde8ski/template-project
+cookiecutter gh:ernieIzde8ski/template [-c <branch>]
 ```
 
-For command aliases, autofilling prompts like `author_name`, and other shortcuts,
-read [Cookiecutter's documentation](https://cookiecutter.readthedocs.io/en/2.0.2/README.html).
+Cookiecutter documentation: <https://cookiecutter.readthedocs.io/en/2.0.2/README.html>
