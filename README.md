@@ -21,7 +21,7 @@ pipx install cookiecutter
 ## Usage
 
 ```sh
-cookiecutter gh:ernieIzde8ski/template [-c <branch>]
+cookiecutter gh:ernieIzde8ski/template -c python
 ```
 
 Cookiecutter documentation: <https://cookiecutter.readthedocs.io/en/2.0.2/README.html>
